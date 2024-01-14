@@ -1,6 +1,11 @@
 <script setup>
 import { ref } from 'vue'
-import game1 from "@/assets/home/game1.png"
+import game1 from "@/assets/home/group.png";
+import game2 from "@/assets/home/group2.png";
+import game3 from "@/assets/home/group3.png";
+import game4 from "@/assets/home/group4.png";
+import game5 from "@/assets/home/group5.png";
+import game6 from "@/assets/home/group6.png"
 let webs = ref([
   {label:'站点一',name:'djdkfjfnk.com',value:'https://djdkfjfnk.com'},
   {label:'站点二',name:'djdkfjfnk.com',value:'https://djdkfjfnk.com'},
@@ -8,11 +13,11 @@ let webs = ref([
 ])
 let games = ref([
   {name:'1',url:'',img:game1},
-  {name:'1',url:'',img:game1},
-  {name:'1',url:'',img:game1},
-  {name:'1',url:'',img:game1},
-  {name:'1',url:'',img:game1},
-  {name:'1',url:'',img:game1}
+  {name:'1',url:'',img:game2},
+  {name:'1',url:'',img:game3},
+  {name:'1',url:'',img:game4},
+  {name:'1',url:'',img:game5},
+  {name:'1',url:'',img:game6}
 ])
 let vipLists = ref([
   {name:'天天红包雨',url:''},
